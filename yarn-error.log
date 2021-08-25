@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/emmanuel/.nvm/versions/node/v12.22.1/bin/node /Users/emmanuel/.nvm/versions/node/v12.22.1/bin/yarn add express
+
+PATH: 
+  /Users/emmanuel/.nvm/versions/node/v12.22.1/bin:/Users/emmanuel/.yarn/bin:/Users/emmanuel/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/emmanuel/.nvm/versions/node/v12.22.1/bin:/Users/emmanuel/.yarn/bin:/Users/emmanuel/.config/yarn/global/node_modules/.bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.22.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://bio-rad-lsg-490541681917.d.codeartifact.us-west-2.amazonaws.com/npm/lsg-npm/express: Unauthenticated: request used expired credentials. Please renew your credentials.
+      at Request.params.callback [as _callback] (/Users/emmanuel/.nvm/versions/node/v12.22.1/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/emmanuel/.nvm/versions/node/v12.22.1/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/Users/emmanuel/.nvm/versions/node/v12.22.1/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:314:20)
+      at Gunzip.<anonymous> (/Users/emmanuel/.nvm/versions/node/v12.22.1/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:420:28)
+      at Gunzip.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1241:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "express-ts-boilerplate",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
